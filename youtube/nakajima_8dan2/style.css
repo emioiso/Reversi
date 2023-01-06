@@ -1,0 +1,32 @@
+html, body {
+	margin: 0;
+	padding: 0;
+  }
+  canvas{
+	display: block;
+  }
+  /* オセロのボードの黒い部分の領域の色の指定 */
+  div#board{
+	position: relative;
+	top:4px;
+	width: 256px;
+	height: 256px;
+	background-color: black;
+  }
+  /* オセロのボードの緑部分の領域の色の指定 */
+  div.sq{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	background-color: Green;
+  }
+  /* 石の位置、や大きさ */
+  div.sq div.disc {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 24px;
+	height: 24px;
+	border-radius: 24px;
+	background-color: white;
+  }
